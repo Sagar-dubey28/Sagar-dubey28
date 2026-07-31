@@ -1,4 +1,5 @@
-![DevOps & Cloud Engineer Banner](https://raw.githubusercontent.com/Sagar-dubey28/Sagar-dubey28/main/banner.png)
+<img width="688" height="516" alt="banner" src="https://github.com/user-attachments/assets/de2653c7-83a6-4ce0-8762-5861d36a5eb5" />
+
 
 # Hi there 👋, I'm Sagar Dubey
 
