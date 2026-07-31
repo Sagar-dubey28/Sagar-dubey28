@@ -1,4 +1,5 @@
-<img width="688" height="516" alt="banner" src="https://github.com/user-attachments/assets/de2653c7-83a6-4ce0-8762-5861d36a5eb5" />
+<img width="2009" height="783" alt="banner (3)" src="https://github.com/user-attachments/assets/04e2499c-c6c0-4ce6-86ce-b0f5232c00f3" />
+
 
 
 # Hi there 👋, I'm Sagar Dubey
