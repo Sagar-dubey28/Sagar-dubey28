@@ -6,43 +6,47 @@
 
 ### 🚀 DevOps & Cloud Engineer
 
-DevOps Engineer with 6+ months of hands-on experience in automating cloud workflows across Linux, AWS,
-Docker, Kubernetes, Terraform, and Git environments. Skilled in architecting multi-stage CI/CD pipelines for
-Java, Node.js, and Python applications, alongside modular Infrastructure as Code (IaC) using Terraform. Proficient
-in crafting language-specific Dockerfiles for container optimization and implementing progressive zero-downtime
-deployment strategies on Kubernetes and Amazon EKS clusters. Active advocate for DevSecOps practices and
-cloud reliability, with foundational knowledge of Microsoft Azure and GCP.
+DevOps Engineer with hands-on experience in AWS, Linux, Docker, Kubernetes, Terraform, Jenkins, and Git. Worked on CI/CD pipelines
+for Java Spring Boot, Node.js, and Python applications, including automated builds, security checks, Docker image creation, and
+Kubernetes deployments. Experienced in provisioning AWS infrastructure with Terraform and deploying containerized workloads on
+Amazon EKS using Kubernetes and Helm. Familiar with DevSecOps tools including SonarQube and Trivy, monitoring with Prometheus,
+Grafana, and CloudWatch, and automation using Ansible, Python, and Bash. Familiar with Azure and GCP cloud fundamentals. Currently
+preparing for the AWS Certified DevOps Engineer - Professional certification.
 
 ---
 
 ### 🧰 Detailed Technical Skill Set
 
-* **Cloud Infrastructure (AWS):** VPC, EKS, EC2, S3, EBS, EFS, ASG, Application Load Balancers (ALB), Route 53, CloudFront, ACM, RDS, Lambda, ECR, NAT/Internet Gateways, AWS CLI 
-* **Multicloud Fundamentals:** Microsoft Azure, Google Cloud Platform (GCP) 
-* **Containerization & Orchestration:** Docker (Multi-stage builds, Distroless images, Networking, Volumes, Compose), Kubernetes (EKS, Deployments, Services, ConfigMaps, Secrets, Ingress, HPA, Rolling Updates, Blue/Green)
-* **Infrastructure as Code (IaC) & Automation:** Terraform (Provider, Resource, Data, Variables, Outputs, Remote Backends), Ansible.
-* **CI/CD & GitOps:** Jenkins (Declarative Pipelines, GitHub Webhooks), GitHub Actions, ArgoCD 
-* **DevSecOps & Code Quality:** SonarQube (Static Analysis), Trivy (Container & Vulnerability Scanning), IAM Roles/Policies
-* **Observability & Monitoring:** AWS CloudWatch, Prometheus, Grafana, Datadog
-* **Linux Systems & Scripting:** Shell Scripting (Bash), Python,  Process Monitoring, Cron Jobs, System Health Checks, Log Rotation, User & Permission Management (`chmod`, `chown`).
-* **Version Control:** Git, GitHub (Gitflow, Feature Branching, PR Workflows, Merge Conflict Resolution)
-* **Databases:** MongoDB, MySQL
-
+Cloud Platforms: AWS (EC2, VPC, S3, IAM, EKS, ECR, EBS, EFS, RDS, Lambda, ALB, ASG, Route 53, CloudFront, ACM, CloudWatch), Azure
+(Core Services), GCP (Core Services)
+Containers & Orchestration: Docker (multi-stage builds, Compose, networking, volumes), Kubernetes (EKS, Helm, Ingress, RBAC, HPA,
+Rolling Updates, Blue-Green Deployments, ConfigMaps, Secrets)
+CI/CD & GitOps: Jenkins (Scripted Pipelines, Shared Libraries, Webhooks), GitHub Actions, Argo CD
+Infrastructure as Code & Configuration Management: Terraform (modules, remote state, workspaces), Ansible
+DevSecOps: SonarQube, Trivy
+Monitoring & Observability: Prometheus, Grafana, AWS CloudWatch
+Scripting & CLI: Bash, Python, AWS CLI
+Version Control: Git, GitHub (branching strategies, pull requests, Gitflow)
+Databases: MySQL, MongoDB, MongoDB Atlas
 ---
 
 ### 💻 Key Architectural Projects
+#### 1. 🏥 [EduBlitz Medical B2B ERP System](https://github.com/Sagar-dubey28)
+• Tech Stack: Java Spring Boot 3.x, React 18, Vite, MongoDB, AWS (EKS, S3, CloudFront, Route 53, ACM, ALB), Terraform, Jenkins,
+Docker, Kubernetes, Helm, JWT, OpenAPI.
+• Built a medical ERP application with three Java Spring Boot microservices for User, Product, and Order management, along with a
+React frontend hosted on Amazon S3 and delivered through CloudFront.
+• Provisioned the AWS infrastructure with Terraform, including EKS, public and private subnets, IAM roles, Route 53, CloudFront,
+ACM, and Application Load Balancer based ingress for application traffic.
+• Containerized the Spring Boot services with Docker and deployed them on Amazon EKS using Kubernetes Deployments, Services,
+ConfigMaps, and Secrets; used Helm Charts to manage application configurations and Kubernetes releases.
+• Configured Kubernetes Secrets and environment variables for application credentials and JWT configuration, and used ingress
+routing to expose the required application services through the AWS load balancer.
+• Connected the microservices to MongoDB Atlas and managed database connection settings through environment-specific
+configuration and Kubernetes Secrets.
+• Created Jenkins CI/CD pipelines to build the Spring Boot services, run code-quality checks, create Docker images, push images to a
+container registry, and deploy updated applications to the EKS cluster.
 
-#### 1. ⚙️ [End-to-End Microservices CI/CD Platform on AWS EKS](https://github.com/Sagar-dubey28)
-* **Stack:** Java Spring Boot, Node.js, Python, Go, React, AWS (VPC, EKS, ECR), Terraform, Jenkins, Helm, ArgoCD, SonarQube, Trivy, Prometheus, Grafana
-* **Architecture:** Architected a polyglot microservice environment comprising React UI, Java User service, Node.js Cart, Python Order, and Go Payment microservices
-* **IaC & Security:** Authored modular Terraform configurations for multi-AZ VPCs, public/private subnets, and fine-grained IAM/Security Groups
-* **Pipelines & Delivery:** Automated Jenkins CI pipelines with shift-left security (SonarQube/Trivy) and GitOps deployment via ArgoCD with Helm packaging on EKS
-
-#### 2. 🏥 [EduBlitz Medical B2B ERP System](https://github.com/Sagar-dubey28)
-* **Stack:** Java Spring Boot 3.x, React 18, Vite, MongoDB, AWS (EKS, S3, CloudFront, Route 53, ACM, ALB), Terraform, Jenkins, Helm, JWT
-* **Cloud & CDN:** Provisioned secure AWS infrastructure with S3 static hosting, CloudFront CDN, Route 53, and ACM SSL certificate termination via Terraform
-* **Orchestration & Security:** Deployed decoupled Spring Boot microservices to EKS using AWS ALB Ingress Controller, injecting HMAC-SHA256 JWT secrets via Kubernetes Secrets and ConfigMaps
-* **High Availability:** Provisioned MongoDB Atlas clusters with automated backup lifecycle policies and dynamic connection poolin
 
 ---
 
