@@ -12,7 +12,7 @@ Currently preparing for the **AWS Certified DevOps Engineer - Professional** cer
 
 ---
 
-### 🧰 Detailed Technical Skill Set
+### Technical Skill Set
 
 * **Cloud Platforms:** AWS (EC2, VPC, S3, IAM, EKS, ECR, EBS, EFS, RDS, Lambda, ALB, ASG, Route 53, CloudFront, ACM, CloudWatch), Azure (Core Services), GCP (Core Services)
 * **Containers & Orchestration:** Docker (multi-stage builds, Compose, networking, volumes), Kubernetes (EKS, Helm, Ingress, RBAC, HPA, Rolling Updates, Blue-Green Deployments, ConfigMaps, Secrets)
@@ -26,9 +26,9 @@ Currently preparing for the **AWS Certified DevOps Engineer - Professional** cer
 
 ---
 
-### 💻 Key Architectural Projects
+### Key Architectural Projects
 
-#### 🏥 [EduBlitz Medical B2B ERP System](https://github.com/Sagar-dubey28)
+#### [EduBlitz Medical B2B ERP System](https://github.com/Sagar-dubey28)
 
 * **Tech Stack:** Java Spring Boot 3.x, React 18, Vite, MongoDB, AWS (EKS, S3, CloudFront, Route 53, ACM, ALB), Terraform, Jenkins, Docker, Kubernetes, Helm, JWT, OpenAPI.
 * **Microservices Architecture:** Built a medical ERP application with three Java Spring Boot microservices for User, Product, and Order management, along with a React frontend hosted on Amazon S3 and delivered through CloudFront.
@@ -39,15 +39,15 @@ Currently preparing for the **AWS Certified DevOps Engineer - Professional** cer
 
 ---
 
-### ⚡ Professional Focus Areas
+### Professional Focus Areas
 
-* 🔁 **Zero-Downtime Deployments:** Rolling Updates & Blue/Green deployment strategies on Kubernetes.
-* 🛡️ **DevSecOps Integration:** Automated vulnerability scans and static code checks integrated directly into pipeline gates.
-* 📊 **Cloud Reliability:** Synthesizing telemetry dashboards and real-time alerts for cluster utilization and API latencies.
+*  **Zero-Downtime Deployments:** Rolling Updates & Blue/Green deployment strategies on Kubernetes.
+*  **DevSecOps Integration:** Automated vulnerability scans and static code checks integrated directly into pipeline gates.
+*  **Cloud Reliability:** Synthesizing telemetry dashboards and real-time alerts for cluster utilization and API latencies.
 
 ---
 
-### 📫 Connect with Me
+### Connect with Me
 
 * **LinkedIn:** [Sagar Dubey](https://www.linkedin.com/in/sagar-dubey1900/)
 * **Email:** connect.sagardubey@gmail.com
